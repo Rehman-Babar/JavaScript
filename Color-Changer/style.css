@@ -1,0 +1,59 @@
+html{
+  margin: 0;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main{
+  margin: 10% 10% 0 15%;
+}
+nav{
+  display: flex;
+  justify-content: space-evenly;
+}
+nav a{
+  text-decoration: none;
+  background-color: rgb(101, 101, 99);
+  color: whitesmoke;
+  font-size: 1.5rem;
+  /* height: 25px; */
+  padding: 10px;
+  border-radius: 7px;
+}
+h1{
+  text-align: center;
+  margin: 10px auto 10px;
+}
+.canvas{
+  margin: 15px auto 100px;
+  width: 80%;
+  text-align: center;
+}
+.button{
+width: 60px;
+height: 60px;
+display: inline-block;
+border-radius: 10px;
+border: 1px solid black;
+}
+
+#grey {
+  background: grey;
+}
+
+#white {
+  background: white;
+}
+#blue {
+  background: blue;
+}
+#black {
+  background: black;
+}
+span{
+  display: block;
+
+}
+

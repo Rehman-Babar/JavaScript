@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    /* justify-content: center; */
+    justify-content: space-between;
+    
+
+}
+nav a{
+    text-decoration: none;
+    background-color: rgb(161, 161, 161);
+    padding:7px 20px ;
+    border-radius: 7px;
+    color: #212121;
+    font-size: 1.2em;
+    display: block;
+}
+.a1{
+    margin-left: 30%;
+}
+.a2{
+    margin-right: 30%;
+}
+body{
+    background-color: #212121;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 30%; */
+    background-color: whitesmoke;
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 8px;
+    height: 400px;
+}
+h1{
+    color: whitesmoke;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;;
+
+}
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.2rem;
+    margin: 6px 0 3px 0;
+}
+h2{
+    text-align: center;
+    margin-bottom: -15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+#guessField{
+    text-align: center;
+    border-radius: 5px;
+    background-color: #4e4d4d;
+    color: whitesmoke;
+    margin-left: 8px;
+    height: 25px;
+}
+#submit{
+    margin: 5px 13% 0;
+    padding: 8px 12px ;
+    font-size: 18px;
+    background-color: rgb(178, 178, 178);
+    border: none;
+    border-radius: 8px;
+}
+

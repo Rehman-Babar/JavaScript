@@ -1,0 +1,66 @@
+html{
+    margin: 0;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .main{
+    /* margin: 10% 10% 0 15%; */
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+
+  }
+  nav{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  nav a{
+    text-decoration: none;
+    background-color: rgb(101, 101, 99);
+    color: whitesmoke;
+    font-size: 1.5rem;
+    /* height: 25px; */
+    padding: 10px;
+    border-radius: 7px;
+  }
+  h2{
+    color: whitesmoke;
+  }
+  .center{
+    /* margin: 100px auto 100px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:25px ;
+
+  }
+  #clock{
+    background-color: orange;
+    width: 180px;
+    height: 80px;
+    margin-top: 5px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 30px;
+
+    }
+    .button{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      
+    }
+    span{
+      padding: 5px 10px;
+      font-size: 1rem;
+      border-radius: 5px;
+      background-color: orange;
+      cursor: pointer;
+    }

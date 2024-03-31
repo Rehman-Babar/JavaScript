@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Gues-The-Number</title>
+</head>
+<body>
+    <nav>
+        <a class="a1" href="#">Home</a>
+        <a class="a2" href="#">Git-Hub-Account</a>
+    </nav>
+    <h1>Number Gassing Game</h1>
+    <div class="main">
+        
+        <p>Try and guess the randem number between 1 and 100.</p>
+        <p>You have 10 attempts to guess tyhe right number</p>
+        <form action="#">
+            <h2 for="guessField" id="guess">Guess a number</h2><br>
+            <input  id="guessField" class="guessField" type="text"><br>
+            <input id="submit" value="submit guess" type="submit">
+        </form>
+        <div class="resultPares">
+            <p>Previous Guessing: <span class="guesses"></span></p>
+            <p>Guess Remaning: <span class= "lastRemanig">10</span></p>
+            <p class="loORhi"></p>
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
